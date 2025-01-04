@@ -8,24 +8,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task2/start_blocks"
                         ],
-                        "name": "Sure! Blocks"
+                        "name": "Klar! Blocks"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task2/start_python"
                         ],
-                        "name": "Sure! Python"
+                        "name": "Klar! Python"
                     },
                     {
                         "commands": [],
-                        "name": "No thanks"
+                        "name": "Nein, danke"
                     }
                 ],
-                "npc_name": "Miner - Talk to me!",
+                "npc_name": "Miner - Sprich mit mir!",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "miners2",
-                "text": "My pickaxe just broke! Do you think you could help me mine out that last wall of stone? \nIt shouldn't take long with that Agent of yours!"
+                "text": "Meine Spitzhacke ist gerade kaputt gegangen! Glaubst du, du könntest mir helfen, diese letzte Steinmauer abzubauen? \nEs sollte nicht lange dauern mit deinem Agent!\t"
             }
         ]
     }

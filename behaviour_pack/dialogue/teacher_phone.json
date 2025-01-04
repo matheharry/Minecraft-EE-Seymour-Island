@@ -8,38 +8,38 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/start_world"
                         ],
-                        "name": "Start game"
+                        "name": "Spiel starten"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/toggle_flying"
                         ],
-                        "name": "Toggle flying"
+                        "name": "Fliegen umschalten"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport_list"
                         ],
-                        "name": "Teleport to..."
+                        "name": "Teleportieren nach..."
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/report_student_status"
                         ],
-                        "name": "Student status"
+                        "name": "Schülerstatus"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/student_phone"
                         ],
-                        "name": "Student phone"
+                        "name": "Schülertelefon"
                     }
                 ],
-                "npc_name": "Teacher Phone",
+                "npc_name": "Lehrertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone",
-                "text": "Hello there, how can I help?\nUse the buttons below to start the game, toggle flying mode or to teleport quickly to areas of the map.\nThe \"Student status\" button will display an overview of student progress in chat.\nThe \"Student phone\" button allows you see what students see with their phones."
+                "text": "Hallo, wie kann ich helfen?\nVerwenden Sie die Schaltflächen unten, um das Spiel zu starten, den Flugmodus umzuschalten oder sich schnell in Bereiche der Karte zu teleportieren.\nÜber den Button „Schülerstatus“ wird eine Übersicht über den Schülerfortschritt im Chat angezeigt.\nMit der Schaltfläche \"Schülertelefon\" können Sie sehen, was Schüler mit ihren Telefonen sehen."
             },
             {
                 "buttons": [
@@ -47,44 +47,44 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/spawn"
                         ],
-                        "name": "Spawn area"
+                        "name": "Spawnbereich"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/town_square"
                         ],
-                        "name": "Town Square"
+                        "name": "Hauptplatz"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/ship"
                         ],
-                        "name": "Ship (task0)"
+                        "name": "Schiff (task0)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/shipwreck"
                         ],
-                        "name": "Shipwreck"
+                        "name": "Schiffswrack"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/task1"
                         ],
-                        "name": "Melon (task1)"
+                        "name": "Melone (Aufgabe1)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport_list_2"
                         ],
-                        "name": "More..."
+                        "name": "Mehr..."
                     }
                 ],
-                "npc_name": "Teacher Phone",
+                "npc_name": "Lehrertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone_teleport_1",
-                "text": "Choose a location to teleport to below, or select \"More...\" to display the 2nd page of options."
+                "text": "Wählen Sie einen Ort, an den Sie sich teleportieren möchten, oder wählen Sie \"Mehr...\", um die zweite Seite der Optionen anzuzeigen."
             },
             {
                 "buttons": [
@@ -92,52 +92,52 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/task234"
                         ],
-                        "name": "Mine (task2/3/4)"
+                        "name": "Mine (Aufgabe 2/3/4)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/task5"
                         ],
-                        "name": "Fish (task5)"
+                        "name": "Fisch (Aufgabe 5)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/task6"
                         ],
-                        "name": "Shocking (task6)"
+                        "name": "Elektrisierend (Aufgabe 6)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/task78"
                         ],
-                        "name": "Mazes (task7/8)"
+                        "name": "Labyrinthe (Aufgabe 7/8)"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport_list"
                         ],
-                        "name": "Return"
+                        "name": "Zurück"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teacher_phone"
                         ],
-                        "name": "Back to menu"
+                        "name": "Zurück zum Menü"
                     }
                 ],
-                "npc_name": "Teacher Phone",
+                "npc_name": "Lehrertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone_teleport_2",
-                "text": "Choose a location to teleport to, or select \"Return\" to display the 1st page of teleport options again.\nSelect \"Back to menu\" to return to the main phone menu."
+                "text": "Wählen Sie einen Ort, an den Sie sich teleportieren möchten, oder wählen Sie \"Zurück\", um die erste Seite der Teleport-Optionen erneut anzuzeigen.\nWählen Sie „Zurück zum Menü“, um zum Hauptmenü des Telefons zurückzukehren."
             },
             {
                 "buttons": [],
-                "npc_name": "Teacher Phone",
+                "npc_name": "Lehrertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "teacher_phone_world_options",
-                "text": "Choose an option to edit below."
+                "text": "Wähle unten eine Option zum Bearbeiten aus."
             }
         ]
     }

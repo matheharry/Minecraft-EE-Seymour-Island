@@ -8,18 +8,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/books/book_4"
                         ],
-                        "name": "Open Book"
+                        "name": "Buch öffnen"
                     },
                     {
                         "commands": [],
-                        "name": "No Thanks"
+                        "name": "Nein, danke"
                     }
                 ],
                 "npc_name": "Cryptography 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_4",
-                "text": "Cryptography Challenge 4 is difficult, isn't it? Have a read of this book. It's about Julius Caesar and might just help you find what you are looking for."
+                "text": "Die Kryptographie-Challenge 4 ist schwierig, nicht wahr? Lies dieses Buch. Es geht um Julius Caesar und könnte dir helfen, das zu finden, wonach du suchst."
             }
         ]
     }

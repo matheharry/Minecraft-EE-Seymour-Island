@@ -6,20 +6,20 @@
                 "buttons": [
                     {
                         "commands": [
-                            "/execute @initiator ~ ~ ~ function crypto/books/book_3"
+                            "/execute @initiator ~ ~ ~ function crypto/books/book_2"
                         ],
-                        "name": "Open Book"
+                        "name": "Buch öffnen"
                     },
                     {
                         "commands": [],
-                        "name": "No Thanks"
+                        "name": "Nein, danke"
                     }
                 ],
                 "npc_name": "Cryptography 3",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_3",
-                "text": "Do you need a hand figuring out the third Cryptography Challenge?\nTake a look about Sir Tim Berners-Lee. It might just help you."
+                "text": "Brauchst du Hilfe, um die dritte Kryptographie-Challenge zu meistern?\nSchau dir Sir Tim Berners-Lee genauer an. Es könnte dir helfen."
             }
         ]
     }

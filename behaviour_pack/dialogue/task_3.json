@@ -8,24 +8,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task3/start_blocks"
                         ],
-                        "name": "Sure - Blocks"
+                        "name": "Sicher - Blocks"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task3/start_python"
                         ],
-                        "name": "Sure - Python"
+                        "name": "Sicher - Python"
                     },
                     {
                         "commands": [],
-                        "name": "Not right now"
+                        "name": "Nicht jetzt"
                     }
                 ],
-                "npc_name": "Miner - Talk to me!",
+                "npc_name": "Miner - Sprich mit mir!",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "miners3",
-                "text": "We have found what looks like a really great vein of iron ore up ahead. Think you could help us dig it out with your Agent? Be careful though... The caves are unstable. Only remove the iron ore, make sure to leave the stone! Ready to help?"
+                "text": "Wir haben vor uns eine wirklich große Eisenerzader gefunden. Könntest du uns mit deinem Agent helfen, es herauszuholen? Aber sei vorsichtig... Die Höhlen sind instabil. Entferne nur das Eisenerz, achte darauf, den Stein stehen zu lassen! Bist du bereit zu helfen?\t"
             }
         ]
     }

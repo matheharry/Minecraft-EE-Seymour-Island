@@ -9,11 +9,11 @@
                         "name": "OK!"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_1",
-                "text": "Here is a hint to help you find the first robot.  \n\nThe first robot loves books and learning knowledge. They might spend their time amongst a collection of books..."
+                "text": "Hier ist ein Tipp, der dir hilft, den ersten Roboter zu finden.  \n\nDer erste Roboter liebt Bücher und sein Wissen zu vergrößern. Sie könnten ihre Zeit inmitten einer Sammlung von Büchern verbringen..."
             },
             {
                 "buttons": [
@@ -22,11 +22,11 @@
                         "name": "OK!"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_2",
-                "text": "Here is a hint to help you find the second robot.\n\nThe second robot is on the hunt for a precious metal, you will probably find them underground..."
+                "text": "Hier ist ein Tipp, der dir hilft, den zweiten Roboter zu finden.  \n\nDer zweite Roboter ist auf der Jagd nach einem Edelmetall, du wirst sie wahrscheinlich im Untergrund finden..."
             },
             {
                 "buttons": [
@@ -35,11 +35,11 @@
                         "name": "OK!"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_3",
-                "text": "Here is a hint to help you find the third robot.\n\nThe third robot is shy and doesn't leave the house much. They are probably hiding in a house that doesn't have a coding task in it. Have a look around and see if you can find an empty looking house."
+                "text": "Hier ist ein Tipp, der dir hilft, den dritten Roboter zu finden.  \n\nDer dritte Roboter ist schüchtern und verlässt das Haus sehr selten. Sie verstecken sich wahrscheinlich in einem Haus, das keine Codieraufgabe hat. Schau dich um und schau, ob du ein leer aussehendes Haus finden kannst."
             },
             {
                 "buttons": [
@@ -48,11 +48,11 @@
                         "name": "OK!"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_4",
-                "text": "Here is a hint to help you find the fourth robot.\n\nThe fourth robot only has eyes for the stars. They can probably be found somewhere high up with a good view of the stars."
+                "text": "Hier ist ein Tipp, der dir hilft, den vierten Roboter zu finden.  \n\nDer vierte Roboter hat nur Augen für die Sterne. Sie sind wahrscheinlich irgendwo hoch oben mit einem guten Blick auf die Sterne zu finden."
             },
             {
                 "buttons": [
@@ -61,11 +61,11 @@
                         "name": "OK!"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_loc_5",
-                "text": "Here is a hint to help you find the fifth robot.\n\nThe fifth robot wants to get lost at sea, so I would first take a look down by the sea."
+                "text": "Hier ist ein Tipp, der dir hilft, den fünften Roboter zu finden.  \n\nDer fünfte Roboter will sich auf dem Meer verirren, also würde ich zuerst einen Blick hinunter zum Meer werfen."
             },
             {
                 "buttons": [
@@ -73,18 +73,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function cryptovault/start"
                         ],
-                        "name": "Sure!"
+                        "name": "Gerne!"
                     },
                     {
                         "commands": [],
-                        "name": "No thanks"
+                        "name": "Nein, danke"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_vault",
-                "text": "Great timing, I've just found the power room. Let's head there now."
+                "text": "Tolles Timing, ich habe gerade den Energieraum gefunden. Gehen wir jetzt dorthin."
             },
             {
                 "buttons": [
@@ -92,14 +92,14 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/adventurer"
                         ],
-                        "name": "Next"
+                        "name": "Weiter"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_intro",
-                "text": "I've been investigating some peculiar robots, and could do with your help. If you need a hint on where to find them let me know."
+                "text": "Ich habe ein paar seltsame Roboter untersucht und könnte deine Hilfe gebrauchen. Wenn du einen Tipp brauchst, wo du sie findest, lass es mich wissen."
             },
             {
                 "buttons": [
@@ -107,14 +107,14 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_vault"
                         ],
-                        "name": "Next"
+                        "name": "Weiter"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_buffer",
-                "text": "You've found all the robots and decrypted all the ciphers!"
+                "text": "Du hast alle Roboter gefunden und alle Verschlüsselungen geknackt!"
             },
             {
                 "buttons": [
@@ -122,24 +122,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ /function phone/teleport/robot_tower"
                         ],
-                        "name": "Climb the ladder"
+                        "name": "Klettere die Leiter hoch"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ /function phone/teleport/town_square"
                         ],
-                        "name": "Return to square"
+                        "name": "Zurück zum Hauptplatz"
                     },
                     {
                         "commands": [],
                         "name": "Ok"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_power_room",
-                "text": "Great job, you got through the vault into the reactor room!\nIt looks like there is an evil agent here that is responsible for all these issues!\nThere also seems to be a mysterious ladder behind me, wonder where it goes?..."
+                "text": "Gut gemacht, du bist durch das Gewölbe in den Reaktorraum gekommen!\nEs sieht so aus, als gäbe es hier einen bösen Agent, der für all diese Probleme verantwortlich ist!\nHinter mir scheint auch eine geheimnisvolle Leiter zu sein, wohin sie wohl wohl wohl führt?..."
             },
             {
                 "buttons": [
@@ -151,14 +151,14 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=adventurer, c=1] @s crypto_a_code"
                         ],
-                        "name": "Code words?"
+                        "name": "Codewörter?"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_in_vault",
-                "text": "Well isn't this interesting! A vault with some sort of puzzle on the ground. Using the letter blocks in the chest and the code words you already discovered from the robots, can you place the words in the correct order in the gaps below?\nIt looks like you can check your answer with that button above the vault door."
+                "text": "Nun, ist das nicht interessant! Ein Gewölbe mit einer Art Puzzle auf dem Boden. Mit den Buchstabenblöcken in der Truhe und den Codewörtern, die du bereits von den Robotern her kennst, kannst du die Wörter in der richtigen Reihenfolge in den Lücken unten platzieren?\nEs sieht so aus, als könntest du deine Antwort mit diesem Schalter über der Tresortür überprüfen."
             },
             {
                 "buttons": [
@@ -167,11 +167,11 @@
                         "name": "Ok"
                     }
                 ],
-                "npc_name": "Adventurer",
+                "npc_name": "Abenteurer",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_a_code",
-                "text": "Can't remember the code words you found earlier? They were\n\n- Cipher\n- Lovelace\n- Turing\n- Data\n- Encrypt"
+                "text": "Kannst du dich nicht an die Codewörter erinnern, die du zuvor gefunden hast? Sie waren\n\n- Cipher\n- Lovelace\n- Turing\n- Data\n- Encrypt"
             }
         ]
     }

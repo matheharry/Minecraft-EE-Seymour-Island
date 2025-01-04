@@ -8,24 +8,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task4/start_blocks"
                         ],
-                        "name": "Sure! Blocks"
+                        "name": "Klar! Blocks"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task4/start_python"
                         ],
-                        "name": "Sure! Python"
+                        "name": "Klar! Python"
                     },
                     {
                         "commands": [],
-                        "name": "No thanks!"
+                        "name": "Nein Danke!"
                     }
                 ],
-                "npc_name": "Miner - Talk to me!",
+                "npc_name": "Miner - Sprich mit mir!",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "miners4",
-                "text": "Make sure you have done autominer tasks 1 and 2 before this, as I only want the best miners on this one!\nWe've hit a rich mining vein! Don't remove any stone as the tunnel might collapse. Just to be on the safe side though, you need to get in and out in 50 seconds. Think you can do it?"
+                "text": "Achte darauf, dass du die Autominer-Aufgaben 1 und 2 vorher erledigt hast, denn ich will nur die besten Miner dabei haben!\nWir haben eine reiche Abbauader erwischt! Entferne keine Steine, da der Tunnel sonst einstürzen könnte. Um auf Nummer sicher zu gehen, musst du innerhalb von 50 Sekunden rein und wieder raus sein. Glaubst du, du schaffst das?\t"
             }
         ]
     }

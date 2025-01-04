@@ -8,40 +8,40 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task5/start_blocks"
                         ],
-                        "name": "Sure - Blocks!"
+                        "name": "Sicher - Blocks!"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task5/start_python"
                         ],
-                        "name": "Sure - Python"
+                        "name": "Sicher - Python"
                     },
                     {
                         "commands": [],
-                        "name": "Not right now"
+                        "name": "Nicht jetzt"
                     }
                 ],
                 "npc_name": "Captain",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "captains",
-                "text": "Hey there, we have just had a HUGE haul of fish come in. Any chance you could help us bring it ashore?"
+                "text": "Hallo, wir haben gerade eine RIESIGE Ladung Fische bekommen. Könntest du uns helfen, sie an Land zu bringen?\t"
             },
             {
                 "buttons": [],
-                "npc_name": "Crew",
+                "npc_name": "Besatzung",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crew1s",
-                "text": "Haha, \"fishy\" business going on here.\t"
+                "text": "Haha, hier laufen \"fischige\" Geschäfte ab.\t"
             },
             {
                 "buttons": [],
-                "npc_name": "Crew",
+                "npc_name": "Besatzung",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crew2s",
-                "text": "Hi there!\nNice job on offloading the fish from our boat so far, but I think there's some more left to take off.\nHead onto the boat to help us unload it. Someone will tell you when it's finished.\nThanks again!"
+                "text": "Hallo!\nGute Arbeit beim Abladen der Fische von unserem Boot, aber ich glaube, es sind noch ein paar mehr übrig.\nGehe auf das Boot und hilf uns beim Entladen. Jemand wird es dir sagen, wenn alles erledigt ist.\nNochmals vielen Dank!"
             }
         ]
     }

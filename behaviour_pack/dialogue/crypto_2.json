@@ -8,17 +8,17 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_2/start"
                         ],
-                        "name": "Input Codeword"
+                        "name": "Codeworteingabe"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_2/help"
                         ],
-                        "name": "Help"
+                        "name": "Hilfe"
                     },
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
@@ -70,7 +70,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_1",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der erste Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -115,7 +115,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_2",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der zweite Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_3",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der dritte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -205,7 +205,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_4",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the fourth letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der vierte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -250,7 +250,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_5",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the fifth letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der fünfte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -295,7 +295,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_6",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the sixth letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der sechste Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -340,7 +340,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_7",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the seventh letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der siebte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -385,7 +385,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_input_8",
-                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "ði: kəʊd wɜ:d ɪz lʌvleɪs\n\n\n\nWas ist der letzte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -393,32 +393,32 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_hint"
                         ],
-                        "name": "Hint"
+                        "name": "Hinweis"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_next_loc"
                         ],
-                        "name": "Next Location"
+                        "name": "Nächster Schauplatz"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_intro"
                         ],
-                        "name": "Back"
+                        "name": "Zurück"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/teleport_library"
                         ],
-                        "name": "Teleport Library"
+                        "name": "Teleport Bibliothek"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_help",
-                "text": "Somebody in the library may be able to help you.\nWhat me to teleport you there?"
+                "text": "Es kann sein, dass dir jemand in der Bibliothek helfen kann.\nSoll ich dich dorthin teleportieren?"
             },
             {
                 "buttons": [
@@ -426,53 +426,53 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_2, c=1] @s crypto_2_ciphertext"
                         ],
-                        "name": "Next"
+                        "name": "Weiter"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_intro",
-                "text": "Bzzt... language core temperamental... you look like a trustworthy person the information you seek is... bzzt"
+                "text": "Bzzt... Sprachkern überhitzt... Sie sehen aus wie eine vertrauenswürdige Person die Information, die Sie suchen ist... bzzt"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_hint",
-                "text": "To solve this puzzle you will need a translation table, that you might be able to find in the library (or on the worksheet).\nI wonder how you would pronounce those characters...?"
+                "text": "Um dieses Rätsel zu lösen, benötigst du eine Übersetzungstabelle, die du möglicherweise in der Bibliothek (oder auf dem Arbeitsblatt) findest.\nIch frage mich, wie du diese Zeichen aussprechen würdest...?"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_next_loc",
-                "text": "Have you heard the mayor's speech? The next unit really likes listening to it, but where could you hide within earshot?"
+                "text": "Hast du die Rede der Bürgermeisterin gehört? Die nächste Einheit hört sie sich wirklich gerne an, aber wo könnte man sich in Hörweite verstecken?"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_2_correct",
-                "text": "Bzzt... you know the international phonetic alphabet? You're smarter than I originally thought."
+                "text": "Bzzt... du kennst das internationale phonetische Alphabet? Du bist klüger, als ich ursprünglich dachte."
             }
         ]
     }

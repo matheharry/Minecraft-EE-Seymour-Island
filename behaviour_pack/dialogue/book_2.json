@@ -8,18 +8,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/books/book_2"
                         ],
-                        "name": "Open Book"
+                        "name": "Buch öffnen"
                     },
                     {
                         "commands": [],
-                        "name": "No Thanks"
+                        "name": "Nein, danke"
                     }
                 ],
                 "npc_name": "Cryptography 2",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_2",
-                "text": "Are you having trouble solving the second Cryptography Challenge?\nI have a book about Ada Lovelace that could help you."
+                "text": "Hast du Probleme, die zweite Kryptographie-Challenge zu lösen?\nIch habe ein Buch über Ada Lovelace, das dir helfen könnte."
             }
         ]
     }

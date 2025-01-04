@@ -21,7 +21,7 @@
                 "on_close_commands": ["/dialogue open @e[type=npc, tag=papert, c=1] @initiator task_0_intro"],
                 "on_open_commands": [],
                 "scene_tag": "task_0_intro",
-                "text": "Well that was certainly quite a storm that passed over us, it looks like we have some damage to the ship. \nCan you use this Agent to repair the damage at the front of the ship on the port (left) side?\nWould you like to code in Blocks or Python?"
+                "text": "Das war ein heftiger Sturm, der da über uns hinweggezogen ist. Es sieht so aus, als wäre das Schiff etwas beschädigt worden. \nKannst du diesen Agent verwenden, um den Schaden an der Vorderseite des Schiffes auf der Backbordseite (links) zu reparieren?\nMöchtest du mit Blocks oder Python programmieren?"
             },
             {
                 "buttons": [
@@ -38,20 +38,20 @@
                 ],
                 "on_open_commands": [],
                 "scene_tag": "task_0_complete",
-                "text": "Great job, that repair looks like it should hold for now...\n\nThe weather really is starting to get worse, BRACE YOURSELVES, INCOMING WAVE!"
+                "text": "Gut gemacht, diese Reparatur sieht so aus, als sollte sie vorerst halten...\n\nDas Wetter beginnt wirklich schlechter zu werden, MACHT EUCH BEREIT, EINE WELLE KOMMT!"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Right away!"
+                        "name": "Sofort!"
                     }
                 ],
                 "npc_name": "Captain Papert",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_wheel",
-                "text": "*CRASH*\n\nQuickly! Grab the steering wheel of the ship, there is another wave coming!"
+                "text": "*KABUMM*\n\nSchnell! Schnapp dir das Steuerrad des Schiffes, es kommt eine weitere Welle!"
             },
             {
                 "buttons": [],
@@ -59,7 +59,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_sailor_1",
-                "text": "Welcome aboard!"
+                "text": "Willkommen an Bord!"
             },
             {
                 "buttons": [],
@@ -67,7 +67,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_sailor_2",
-                "text": "Did you see that dolphin over there?..."
+                "text": "Hast du den Delfin da drüben gesehen?..."
             },
             {
                 "buttons": [],
@@ -75,7 +75,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_0_sailor_3",
-                "text": "I see a storm brewing..."
+                "text": "Ich sehe einen gewaltigen Sturm auf uns zukommen...\t"
             }
         ]
     }

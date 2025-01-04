@@ -8,7 +8,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "town_mayor",
-                "text": "Well hello there stranger... Did you just appear out of our fountain?\nAhh, you must be the engineer I requested! We've come across a number of technical problems across town, can you go and fix them? I've marked a pathway on the ground to each task, colored based on difficulty!"
+                "text": "Hallo, Fremder... Bist du gerade aus unserem Brunnen aufgetaucht?\nAhh, du musst der Ingenieur sein, den ich angefordert habe! Wir sind in der ganzen Stadt auf eine Reihe von technischen Problemen gestoßen. Kannst du versuchen, sie zu beheben? Ich habe für jede Aufgabe einen Weg markiert, der je nach Schwierigkeitsgrad gefärbt ist!"
             },
             {
                 "buttons": [],
@@ -16,7 +16,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_susie",
-                "text": "Hi there, just back from getting my new set of resources and blocks from an ocean monument.\nI have a variety of sea-based blocks too.\nIncluding maps and even sand if you would like to smelt it for glass."
+                "text": "Hallo, ich bin gerade zurück, nachdem ich mein neues Set an Ressourcen und Blöcken aus einem Meeres-Monument geholt habe.\nIch habe auch eine Reihe von Meeresblöcken.\nInklusive Karten und sogar Sand, falls du ihn für Glas einschmelzen möchtest."
             },
             {
                 "buttons": [],
@@ -24,7 +24,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_francesca",
-                "text": "Hiya,\nI sell plots of land for farming and animals for breeding.\nI'm also happy to include the offer of 12 free chickens when a new plot of land is bought."
+                "text": "Hallo,\nich verkaufe Grundstücke für die Landwirtschaft und Tiere für die Zucht.\nIch biete dir auch gerne 12 kostenlose Hühner an, wenn du ein neues Grundstück kaufst."
             },
             {
                 "buttons": [],
@@ -32,7 +32,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_will",
-                "text": "Swords, armor and enchanted books for sale.\nOur latest line of horse armor is available too for the protection of your horses at all times.\nWe have a few iron swords on sale too if you are interested?\t"
+                "text": "Schwerter, Rüstungen und verzauberte Bücher zum Verkauf.\nUnsere neueste Kollektion von Pferderüstungen ist auch erhältlich, damit deine Pferde jederzeit geschützt sind.\nWir haben auch ein paar Eisenschwerter im Angebot, falls du interessiert bist?\t"
             },
             {
                 "buttons": [],
@@ -40,23 +40,23 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_smith",
-                "text": "Hi there, I'm Smith! I'm your local blacksmith for weapons and armor.\nWe can repair items or we can enchant them with various effects from knockback on swords to unbreaking on chestplates.\nDo you have any armor with you?"
+                "text": "Hallo, ich bin Smith! Ich bin dein Dorfschmied für Waffen und Rüstungen.\nWir können Gegenstände reparieren oder sie mit verschiedenen Effekten versehen, wie z.B. einem Rückstoß bei Schwertern oder einem unzerstörbaren Brustpanzer.\nHast du eine Rüstung dabei?"
             },
             {
                 "buttons": [],
-                "npc_name": "Guard",
+                "npc_name": "Wache",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard1",
-                "text": "How did you even get up here!?"
+                "text": "Wie bist du überhaupt hierher gekommen!?"
             },
             {
                 "buttons": [],
-                "npc_name": "Guard",
+                "npc_name": "Wache",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard2",
-                "text": "Not happening."
+                "text": "Sicher nicht."
             },
             {
                 "buttons": [],
@@ -64,7 +64,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_nickolas",
-                "text": "Hey!\nYou look like the kind of person who'd be good at transporting items, I hear they need a hand at the dock with their newest haul of fish.\nI think they should still be at the docks if you're interested in helping out."
+                "text": "Hey!\nDu siehst aus wie jemand, der gut darin ist, Sachen zu transportieren. Ich habe gehört, dass sie am Hafen eine Hilfe für ihre neueste Fischladung brauchen.\nIch denke, sie sind noch immer an den Docks, falls du Lust hast, mitzuhelfen."
             },
             {
                 "buttons": [],
@@ -72,7 +72,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "market_nicola",
-                "text": "Hi there!\nI'm Nicola, I sell various minecarts, rails and spawners at a cheap price.\nWould you be interested in our latest addition of hopper minecarts? They help automate the process of collecting items and transporting them in carts."
+                "text": "Hallo!\nIch bin Nicola und verkaufe verschiedene Minenwagen, Schienen und Spawners zu einem günstigen Preis.\nWären Sie an unserer neuesten Version von Trichter-Minenwagen interessiert? Sie helfen dabei, den Prozess des Einsammelns von Gegenständen zu automatisieren und sie in Wagen zu transportieren."
             },
             {
                 "buttons": [],
@@ -88,7 +88,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "Johnson",
-                "text": "Rock, paper, scissors?"
+                "text": "Rock, Hose, Hemd?"
             },
             {
                 "buttons": [],
@@ -96,7 +96,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "homer",
-                "text": "Hi there, haven't seen your face around here before? Nice to meet you!\nI'm Homer, I help with the boats and the docking process for them coming into the pier.\nCurrently just signalling to the incoming boat to stop as we're still offloading."
+                "text": "Hallo, ich habe dein Gesicht hier noch nie gesehen? Freut mich, dich kennenzulernen!\nIch bin Homer. Ich helfe bei den Booten und dem Anlegevorgang, wenn sie an den Pier kommen.\nDerzeit signalisiere ich dem ankommenden Schiff, dass es anhalten soll, da wir noch entladen."
             },
             {
                 "buttons": [],
@@ -104,7 +104,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "izzy",
-                "text": "Hello!\nAre you new to Seymour island? Nice to meet you.\nHave you seen the mine yet? It's recently been opened to the public and they let you mine out ores, from iron to even diamond!\t"
+                "text": "Hallo!\nBist du neu auf Seymour Island? Es freut mich dich kennen zu lernen.\nHast du die Mine schon gesehen? Sie wurde vor kurzem für die Öffentlichkeit zugänglich gemacht und du kannst dort Erze abbauen, von Eisen bis hin zu Diamanten!\t"
             },
             {
                 "buttons": [],
@@ -112,7 +112,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "dock_barbra",
-                "text": "Haha, I'm on a \"See\"-food diet."
+                "text": "Haha, ich bin auf Meeresfrüchte-Diät."
             },
             {
                 "buttons": [],
@@ -120,7 +120,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "dock_aoibheann",
-                "text": "Hiya,\nI admire the work that goes on in the docks and seeing the fish being brought back to shore.\nHave you checked out the town hall yet? I heard they had a few new tasks added recently. Why not take a look?"
+                "text": "Hallo,\nich bewundere die Arbeit, die in den Docks geleistet wird, und dass dafür gesorgt wird, dass die Fische zurück an die Küste gebracht werden.\nHast du dir das Rathaus schon angesehen? Ich habe gehört, dass sie kürzlich ein paar neue Aufgaben hinzugefügt haben. Warum nicht einen Blick darauf werfen?\t"
             },
             {
                 "buttons": [],
@@ -128,7 +128,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "dock_theola",
-                "text": "Ooooo, more fish have been brought in."
+                "text": "Ooooo, es wurden mehr Fische hereingebracht."
             },
             {
                 "buttons": [],
@@ -136,7 +136,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "cgp_grey",
-                "text": "So this is what being a pirate gets you...\nShame Brady and I won't be able to record the next episode of HI..."
+                "text": "Das hat man davon, ein Pirat zu sein...\nSchande, Brady und ich werden die nächste Episode von HI nicht aufnehmen können..."
             },
             {
                 "buttons": [],
@@ -144,31 +144,31 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot2",
-                "text": "*Beep* *Boop*\nGiraffes don't exist.\n*Beep* *Boop*\n2/5\t"
+                "text": "*Beep* *Boop*\nGiraffen gibt es nicht.\n*Beep* *Boop*\n2/5\t"
             },
             {
                 "buttons": [],
-                "npc_name": "Mr Make-it-work",
+                "npc_name": "Herr Reperateur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "make_it_work",
-                "text": "I promise,\nit works."
+                "text": "Ich verspreche,\nes funktioniert wieder."
             },
             {
                 "buttons": [],
-                "npc_name": "Mine Manager",
+                "npc_name": "Minen Manager",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "mine_manager",
-                "text": "Welcome to Seymour Island Mine.\nThere are a series of tasks available for you to try.\nTry one of the tasks on the left then make your way through the other 2 difficulty levels."
+                "text": "Willkommen in der Seymour Island Mine.\nEs gibt eine Reihe von Aufgaben, die du ausprobieren kannst.\nProbiere eine der Aufgaben auf der linken Seite aus und arbeite dich dann durch die anderen 2 Schwierigkeitsstufen."
             },
             {
                 "buttons": [],
-                "npc_name": "Guard",
+                "npc_name": "Wache",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "guard3",
-                "text": "Seymour Island gates are currently closed due to some technical issues.\nYou may not enter...\n**HISSS** \"Come in gate guard 1...\"\n\"We have had reports of smoke coming up from the sewers, please investigate\".\nSorry about that, I must go check this!"
+                "text": "Die Tore von Seymour Island sind derzeit aufgrund einiger technischer Probleme geschlossen.\nDu darfst nicht eintreten...\n**HISSS** \"Komm herein, Wächter 1...\"\n\"Wir haben Berichte über Rauch, der aus den Abwasserkanälen aufsteigt, bitte untersuche das.\"\nTut mir leid, ich muss das überprüfen!"
             },
             {
                 "buttons": [],
@@ -176,7 +176,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "sewer_robot",
-                "text": "You're not meant to be able to talk to me... \n\nWhat are you doing?\n\nAlso, I'm not one of the five hidden robots, you'll need to look elsewhere for them."
+                "text": "Es ist nicht vorgesehen, dass du mit mir redest... \n\nWas machst du?\n\nAußerdem gehöre ich nicht zu den fünf versteckten Robotern, du musst woanders nach ihnen suchen."
             },
             {
                 "buttons": [],
@@ -184,7 +184,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot4",
-                "text": "*Beep* *Boop*\nPlanes don't fly, they fall strategically.\n*Beep* *Boop*\n4/5\t"
+                "text": "*Beep* *Boop*\nFlugzeuge fliegen nicht, sie fallen nach einem Plan.\n*Beep* *Boop*\n4/5\t"
             },
             {
                 "buttons": [],
@@ -192,7 +192,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "robot1",
-                "text": "*Beep* *Boop*\nBirds aren't real.\n*Beep* *Boop*\n1/5\t"
+                "text": "*Beep* *Boop*\nVögel sind nicht echt.\n*Beep* *Boop*\n1/5\t"
             },
             {
                 "buttons": [
@@ -200,26 +200,26 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ /function phone/teleport/town_square"
                         ],
-                        "name": "Return to square"
+                        "name": "Zurück zum Hauptplatz"
                     },
                     {
                         "commands": [],
                         "name": "Ok"
                     }
                 ],
-                "npc_name": "Robot",
+                "npc_name": "Roboter",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "tower_robot",
-                "text": "Welcome to the secret robot viewpoint. From here, we can watch over the entire town square.\nWhen you are ready to go back down, let me know."
+                "text": "Willkommen im geheimen Roboterstützpunkt. Von hier aus können wir den gesamten Hauptplatz überwachen.\nWenn du bereit bist, wieder nach unten zu gehen, lass es mich wissen."
             },
             {
                 "buttons": [],
-                "npc_name": "Librarian",
+                "npc_name": "Bibliothekar",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "librarian",
-                "text": "You don't happen to have a late book, do you?"
+                "text": "Du hast nicht zufällig ein aktuelles Buch, oder?"
             }
         ]
     }

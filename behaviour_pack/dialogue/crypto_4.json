@@ -8,17 +8,17 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_4/start"
                         ],
-                        "name": "Input Codeword"
+                        "name": "Codeworteingabe"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_4/help"
                         ],
-                        "name": "Help"
+                        "name": "Hilfe"
                     },
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
@@ -70,7 +70,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_1",
-                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWas ist der erste Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -115,7 +115,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_2",
-                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWas ist der zweite Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_3",
-                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWas ist der dritte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -205,7 +205,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_input_4",
-                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "Rkfsxq dro bsqrd NKDK sc uoi.\n\n\n\nWas ist der letzte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -213,32 +213,32 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_4, c=1] @s crypto_4_hint"
                         ],
-                        "name": "Hint"
+                        "name": "Hinweis"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_4, c=1] @s crypto_4_next_loc"
                         ],
-                        "name": "Next Location"
+                        "name": "Nächster Schauplatz"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_4, c=1] @s crypto_4_intro"
                         ],
-                        "name": "Back"
+                        "name": "Zurück"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/teleport_library"
                         ],
-                        "name": "Teleport Library"
+                        "name": "Teleport Bibliothek"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_help",
-                "text": "Somebody in the library may be able to help you.\nWhat me to teleport you there?"
+                "text": "Es kann sein, dass dir jemand in der Bibliothek helfen kann.\nSoll ich dich dorthin teleportieren?"
             },
             {
                 "buttons": [
@@ -246,53 +246,53 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_4, c=1] @s crypto_4_ciphertext"
                         ],
-                        "name": "Next"
+                        "name": "Weiter"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_intro",
-                "text": "Random fact: the Andromeda galaxy is 10 billion light-years away."
+                "text": "Interessantes Detail: Die Andromeda-Galaxie ist 10 Milliarden Lichtjahre entfernt.\t"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_next_loc",
-                "text": "The next unit has such a fondness for the boats that pass the pier and a love for the sound of the waves, I'm sure you can find them."
+                "text": "Die nächste Einheit hat eine solche Vorliebe für die Boote, die den Pier passieren, und eine Liebe für das Rauschen der Wellen, ich bin mir sicher, dass du diese finden kannst."
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_hint",
-                "text": "How far was the Andromeda galaxy again?"
+                "text": "Wie weit war die Andromeda-Galaxie nochmal entfernt?"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 4",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_4_correct",
-                "text": "When you save us, come back and look at the stars with me, I've got so much to tell and no one to tell it to."
+                "text": "Wenn du uns rettest, komm zurück und sieh dir mit mir die Sterne an, ich habe so viel zu erzählen und niemandem, dem ich es sagen kann."
             }
         ]
     }

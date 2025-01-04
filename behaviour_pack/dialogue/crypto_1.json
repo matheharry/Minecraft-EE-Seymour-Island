@@ -8,24 +8,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_1/start"
                         ],
-                        "name": "Input Codeword"
+                        "name": "Codeworteingabe"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/input/robot_1/help"
                         ],
-                        "name": "Help"
+                        "name": "Hilfe"
                     },
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_ciphertext",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages."
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten."
             },
             {
                 "buttons": [
@@ -70,7 +70,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_1",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the first letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der erste Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -115,7 +115,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_2",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the second letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der zweite Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -160,7 +160,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_3",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the third letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der dritte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -205,7 +205,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_4",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the fourth letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der vierte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -250,7 +250,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_5",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the fifth letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der fünfte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -295,7 +295,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_input_6",
-                "text": "Cryptography is the use of a serIes of comPlex puzzles tHat concEal and uncoveR messages.\n\n\n\nWhat is the final letter of the secret message?"
+                "text": "Kryptographie ist der Einsatz einer Reihe komPlexer Rätsel zur VerscHlüsselung und EntschlüssElung von NachRichten.\n\n\n\nWas ist der letzte Buchstabe der geheimen Nachricht?"
             },
             {
                 "buttons": [
@@ -303,26 +303,26 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_1, c=1] @s crypto_1_hint"
                         ],
-                        "name": "Hint"
+                        "name": "Hinweis"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_1, c=1] @s crypto_1_next_loc"
                         ],
-                        "name": "Next Location"
+                        "name": "Nächster Schauplatz"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_1, c=1] @s crypto_1_intro"
                         ],
-                        "name": "Back"
+                        "name": "Zurück"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_help",
-                "text": "This library contains books about cryptography, ask around and see if anyone here can help you."
+                "text": "Diese Bibliothek enthält Bücher über Kryptographie. Frage nach und schau, ob jemand hier dir helfen kann."
             },
             {
                 "buttons": [
@@ -330,14 +330,14 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, tag=crypto_1, c=1] @s crypto_1_ciphertext"
                         ],
-                        "name": "Next"
+                        "name": "Weiter"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_intro",
-                "text": "You seem like all the others who want to get from us without giving, prove yourself by thinking more than just assuming."
+                "text": "Du scheinst wie all die anderen zu sein, die nur nehmen wollen, ohne zu geben. Zeig was du drauf hast indem du nachdenkst anstatt nur zu vermuten."
             },
             {
                 "buttons": [
@@ -345,40 +345,40 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ scoreboard players set @s crypto_robot 0"
                         ],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_next_loc",
-                "text": "Last I heard from my fellow unit, they were looking for gold, now where might they have found some?"
+                "text": "Zuletzt habe ich von meiner Kollegin gehört, dass sie nach Gold gesucht haben. Wo könnten sie vielleicht etwas gefunden haben?"
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Thanks!"
+                        "name": "Danke!"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_hint",
-                "text": "Sometimes things that look like mistakes are done with intention."
+                "text": "Manchmal werden Dinge, die wie Fehler aussehen, mit Absicht getan."
             },
             {
                 "buttons": [
                     {
                         "commands": [],
-                        "name": "Exit"
+                        "name": "Beenden"
                     }
                 ],
                 "npc_name": "Cryptographer 1",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "crypto_1_correct",
-                "text": "You've proven yourself, sorry to have been suspicious of you but I'm so starved of power that I don't know who to trust. Find my fellow units, decrypt their messages and help find out what's happened to the power before it's too late."
+                "text": "Du hast dich bewährt. Tut mir leid, dass ich dir gegenüber misstrauisch war, aber ich habe so wenig Energie, dass ich nicht weiß, wem ich vertrauen soll. Finde meine Kollegen, entschlüssle ihre Nachrichten und hilf herauszufinden, was mit der Energie passiert ist, bevor es zu spät ist."
             }
         ]
     }

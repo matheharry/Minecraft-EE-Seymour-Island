@@ -8,14 +8,14 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/teleport/student_town_square"
                         ],
-                        "name": "Return to square"
+                        "name": "Zurück zum Hauptplatz"
                     }
                 ],
-                "npc_name": "Student Phone",
+                "npc_name": "Schülertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "student_phone_outside_task",
-                "text": "Hello there, how can I help?\nIf you want to return back to the Town Square, select the button below."
+                "text": "Hallo, wie kann ich helfen?\nWenn du wieder zum Stadtplatz zurückkehren möchtest, klicke auf die Schaltfläche unten."
             },
             {
                 "buttons": [
@@ -23,26 +23,26 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/reset_task"
                         ],
-                        "name": "Reset task"
+                        "name": "Aufgabe zurücksetzen"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/reset_agent"
                         ],
-                        "name": "Reset agent"
+                        "name": "Agent zurücksetzen"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function phone/quit_task"
                         ],
-                        "name": "Quit task"
+                        "name": "Aufgabe beenden"
                     }
                 ],
-                "npc_name": "Student Phone",
+                "npc_name": "Schülertelefon",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "student_phone_in_task",
-                "text": "Hello there, how can I help?\n\nIf you need to start again, select \"Reset task\". Need to just bring your agent back to the start? For that, use the \"Reset agent\" option."
+                "text": "Hallo, wie kann ich helfen?\n\nWenn Sie erneut starten müssen, wählen Sie „Aufgabe zurücksetzen“. Musst du deinen Agent wieder zurück an den Anfang bringen? Verwende dazu die Option „Agent zurücksetzen“."
             }
         ]
     }

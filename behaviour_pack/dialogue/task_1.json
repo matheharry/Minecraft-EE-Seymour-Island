@@ -8,7 +8,7 @@
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "bobs",
-                "text": "Unfortunately, our electricity is out. Please talk to the manager, Jill."
+                "text": "Leider ist unser Strom aus. Bitte sprich mit der Managerin, Jill.\t"
             },
             {
                 "buttons": [
@@ -16,24 +16,24 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task1/start_blocks"
                         ],
-                        "name": "Sure! Blocks"
+                        "name": "Klar! Blocks"
                     },
                     {
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task1/start_python"
                         ],
-                        "name": "Sure! Python"
+                        "name": "Klar! Python"
                     },
                     {
                         "commands": [],
-                        "name": "No thanks"
+                        "name": "Nein, danke"
                     }
                 ],
                 "npc_name": "Jill",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "jills",
-                "text": "Well hello there. Unfortunately we aren't able to serve anything currently, our electricity is out. Do you think you could fix it?"
+                "text": "Hallo. Leider können wir im Moment nichts anbieten, da unser Strom ausgefallen ist. Glaubst du, du könntest es reparieren?\t"
             }
         ]
     }

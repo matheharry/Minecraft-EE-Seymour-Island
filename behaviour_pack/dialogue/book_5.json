@@ -8,18 +8,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function crypto/books/book_5"
                         ],
-                        "name": "Open Book"
+                        "name": "Buch öffnen"
                     },
                     {
                         "commands": [],
-                        "name": "No Thanks"
+                        "name": "Nein, danke"
                     }
                 ],
                 "npc_name": "Cryptography 5",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "book_5",
-                "text": "Are you struggling to solve Cryptography Challenge 5? Take this book! It should help you out. You will even get to learn about Katherine Johnson."
+                "text": "Hast du Schwierigkeiten, die Kryptographie-Challenge 5 zu lösen? Nimm dieses Buch! Es sollte dir helfen. Du wirst sogar etwas über Katherine Johnson erfahren."
             }
         ]
     }

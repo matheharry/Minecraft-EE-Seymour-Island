@@ -8,18 +8,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ function task6/npc/check_enough_score"
                         ],
-                        "name": "Sure"
+                        "name": "Klar"
                     },
                     {
                         "commands": [],
-                        "name": "Maybe later"
+                        "name": "Vielleicht später"
                     }
                 ],
-                "npc_name": "Substation Engineer",
+                "npc_name": "Umspannwerk-Ingenieur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_npc",
-                "text": "Due to the recent storm, a large amount of the electronic substation in behind us has been damaged. Do you think you could use your agent to help repair it? "
+                "text": "Aufgrund des jüngsten Sturms wurde ein großer Teil des elektronischen Umspannwerks hinter uns beschädigt. Glaubst du, du könntest deinen Agent benutzen, um bei der Reparatur zu helfen? "
             },
             {
                 "buttons": [
@@ -66,11 +66,11 @@
                         "name": "Room 6"
                     }
                 ],
-                "npc_name": "Substation Engineer",
+                "npc_name": "Umspannwerk-Ingenieur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_room_select",
-                "text": "Great, which room would you like to join? Make sure the partner that is helping you complete the task joins the same room."
+                "text": "Großartig, in welchem Raum möchtest du teilnehmen? Stelle sicher, dass der Partner, der dir bei der Erledigung der Aufgabe hilft, im selben Raum dabei ist."
             },
             {
                 "buttons": [
@@ -87,11 +87,11 @@
                         "name": "Python"
                     }
                 ],
-                "npc_name": "Substation Engineer",
+                "npc_name": "Umspannwerk-Ingenieur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_lang",
-                "text": "Do you want to use Blocks or Python with this task?"
+                "text": "Möchtest du für diese Aufgabe Blocks oder Python verwenden?"
             },
             {
                 "buttons": [
@@ -99,18 +99,18 @@
                         "commands": [
                             "/execute @initiator ~ ~ ~ dialogue open @e[type=npc, r=8, c=1] @s task_6_player_num"
                         ],
-                        "name": "Proceed"
+                        "name": "Fortfahren"
                     },
                     {
                         "commands": [],
-                        "name": "Come back later"
+                        "name": "Komm später wieder zurück"
                     }
                 ],
-                "npc_name": "Substation Engineer",
+                "npc_name": "Umspannwerk-Ingenieur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_adv_warning",
-                "text": "This task is an advanced task, you may want to try a few of the easier tasks first. Are you sure you want to try this task?"
+                "text": "Diese Aufgabe ist eine Aufgabe für Fortgeschrittene. Vielleicht möchtest du zuerst einige der einfacheren Aufgaben ausprobieren. Bist du dir sicher, dass du diese Aufgabe versuchen möchtest?"
             },
             {
                 "buttons": [
@@ -129,11 +129,11 @@
                         "name": "Player 2"
                     }
                 ],
-                "npc_name": "Substation Engineer",
+                "npc_name": "Umspannwerk-Ingenieur",
                 "on_close_commands": [],
                 "on_open_commands": [],
                 "scene_tag": "task_6_player_num",
-                "text": "As this is a 2 player task, you will need a partner to help you with it. Which are you, player 1 or player 2 in the pair?"
+                "text": "Da es sich um eine Aufgabe für zwei Spieler handelt, benötigst du einen Partner, der dir dabei hilft. Wer bist du, Spieler 1 oder Spieler 2 in eurem Team?"
             }
         ]
     }
